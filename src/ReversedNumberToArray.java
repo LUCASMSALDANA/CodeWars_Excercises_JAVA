@@ -1,5 +1,6 @@
 import java.util.Arrays;
-
+// Given a random non-negative number, you have
+// to return the digits of this number within an array in reverse order.
 public class ReversedNumberToArray {
     public static void main(String[] args) {
         long n =3715;
