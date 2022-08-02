@@ -25,8 +25,12 @@ public class ReversedNumberToArray {
         // ****** con String Builder *********
 
         int[] reversedDigits = Arrays.stream(new StringBuilder().append(n).reverse().toString().split("(?<=.)")).mapToInt(Integer::parseInt).toArray();
+
+
         System.out.println("");
         System.out.print("Numero al reves en un array creado con StringBuilder : [");
+
+
         for(int i=0;i< reversedDigits.length;i++){
             if(i!= reversedDigits.length-1) {
                 System.out.print(reversedDigits[i] + " , ");
